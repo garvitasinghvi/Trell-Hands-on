@@ -1,0 +1,29 @@
+{
+  "name": "JobRequisition-single",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib-commonjs/index.js",
+  "module": "lib/index.js",
+  "scripts": {
+    "build": "just-scripts build",
+    "just": "just-scripts",
+    "start": "just-scripts start",
+    "test": "just-scripts test",
+    "change": "npx beachball change",
+    "gen": "npx plop"
+  },
+  "dependencies": {
+    "@tinymce/tinymce-react": "^3.7.0",
+    "@types/react-router-dom": "^5.1.5",
+    "office-ui-fabric-react": "^7.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-quill": "^1.3.5",
+    "react-router-dom": "^5.2.0",
+    "style-loader": "^1.2.1"
+  },
+  "devDependencies": {
+    "just-stack-react": "^1.0.0",
+    "just-scripts": "^0.27.0"
+  }
+}
